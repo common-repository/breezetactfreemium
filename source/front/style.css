@@ -1,0 +1,99 @@
+.bt-pl-outer-container {
+max-width: 100%;
+width: 100%;
+position: fixed;
+border-right: 1px solid #FFF;
+color: #FFF;
+z-index: 999;
+}
+
+.bt-conv-front p, .bt-conv-front img {
+display: inline-block;
+vertical-align: top;
+margin-bottom: 0px;
+}
+
+.bt-conv-front {
+z-index: 99999999;
+position: fixed;
+bottom: 0;
+width: 100%;
+text-align: center;
+padding: 15px;
+}
+
+.bt-conv-front img {
+margin-top: -5px;
+}
+
+.bt-ext-space-cb-cv {
+    height: 0px;
+}
+
+.bt-icons-txt-cb {
+    text-align: center;
+}
+
+.bt-pl-outer-container .bt-pl-container-left {
+float: left;    
+}
+
+.bt-pl-inner-container {
+width: 33.33%;
+padding-top: 15px;
+padding-bottom: 15px;    
+}
+
+.bt-pl-inner-container-left {
+float: left;    
+}
+
+.bt-pl-inner-container-center {
+display: inline-block;
+margin: 0 auto;    
+}
+
+.bt-pl-inner-container-right {
+float: right;    
+}
+
+.bt-pl-outer-container .bt-pl-container-center {
+display: inline-block;
+margin: 0 auto;  
+}
+
+.bt-pl-outer-container .bt-pl-container-right {
+float: right;    
+}
+
+.bt-pl-outer-container .bt-pl-container-section {
+width: 33.33%;
+padding-top: 15px;
+padding-bottom: 15px;
+border-right: 1px solid #FFF;
+}
+
+@media(min-width: 550px){
+
+.bt-pl-outer-container, .bt-conv-front {
+display: none;
+}
+
+}
+
+@media(max-width: 550px){
+
+.bt-pl-outer-container, .bt-conv-front {
+display: block;
+font-size: 13px;
+}
+
+}
+
+@media(max-width: 500px){
+
+.bt-fa-2x {
+    font-size: 1.7em;
+}
+
+}
